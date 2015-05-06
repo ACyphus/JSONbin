@@ -1,4 +1,4 @@
-JSON Format & Share
+JSONbin: JSON Document Formatting & Sharing
 ===================
 
 Chrome extension for formatting/pretty-printing and sharing JSON documents in the browser. The one-click share allows you to 
