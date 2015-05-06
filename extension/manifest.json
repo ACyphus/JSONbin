@@ -1,0 +1,21 @@
+{
+  "name": "JSONbin - JSON Formatter, Viewer and Sharing",
+  "short_name": "JSONbin",
+  "version": "0.1.4",
+  "manifest_version": 2,
+  "description": "Beautifully format your JSON payload. Click Share to instantly preserve your JSON in the cloud with a private shareable URL.",
+  "homepage_url": "https://github.com/mansilladev/json-format-share",
+  "minimum_chrome_version": "21",
+  "icons": {
+       "128": "icons/json_bin_128x128.png",
+       "32": "icons/json_bin_32x32.png"
+  },
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "content_scripts": [
+    { "matches": ["<all_urls>"], "js": ["js/content.js"], "run_at": "document_start" }
+  ],
+  "permissions":["tabs", "*://*/*", "<all_urls>", "https://api.runscope.com/*"]
+}
+
