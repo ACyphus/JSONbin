@@ -131,7 +131,7 @@
             buttonFormatted.innerText = 'Parsed' ;
             buttonFormatted.classList.add('selected') ;
             buttonShare.id = 'buttonShare' ;
-            buttonShare.innerText = 'Share' ;
+            buttonShare.innerText = 'Save' ;
             
             var plainOn = false ;
             buttonPlain.addEventListener(
