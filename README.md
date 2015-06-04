@@ -1,7 +1,8 @@
 JSONbin: JSON Document Formatting & Sharing
 ===================
 
-Chrome extension for formatting/pretty-printing and sharing JSON documents in the browser. The one-click share allows you to 
+Chrome extension for formatting/pretty-printing and sharing JSON documents in the browser. The one-click share allows you to collaborate using the HTTP request and response details, powered by [Runscope](https://www.runscope.com/docs/sharing).
+
 Forked from https://github.com/callumlocke/json-formatter
 
 Features
@@ -30,7 +31,10 @@ Installation
 * click "Load unpacked extension",
 * select the `extension` folder in this repo.
 
-**Option 2** – Chrome Web Store installation coming soon.
+**Option 2** – Chrome Web Store:
+
+* [open JSONbin in the Chrome Web Store](https://chrome.google.com/webstore/detail/jsonbin-json-formatter-vi/djpmgpnobdjbhapjgmgcpjdjcmpigdoa)
+* click Add to Chrome
 
 **Some URLs to try it on:**
 
